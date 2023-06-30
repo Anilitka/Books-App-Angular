@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "books": [
+    {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "year": 1945,
+      "img": "https://www.barringtonstoke.co.uk/wp-content/uploads/2020/12/9781781129692.jpg",
+      "info": "Animal Farm is a beast fable, in the form of a satirical allegorical novella, by George Orwell, first published in England on 17 August 1945.",
+      "id": 1
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "year": 1945,
+      "img": "https://www.barringtonstoke.co.uk/wp-content/uploads/2020/12/9781781129692.jpg",
+      "info": "Nineteen Eighty-Four is a dystopian social science fiction novel and cautionary tale by English writer George Orwell.",
+      "id": 2
+    },
+    {
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "year": 1954,
+      "img": "https://m.media-amazon.com/images/I/81WUAoL-wFL._AC_UF1000,1000_QL80_.jpg",
+      "info": "Lord of the Flies is a 1954 novel by the Nobel Prize-winning British author William Golding.",
+      "id": 3
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "year": 1932,
+      "img": "https://m.media-amazon.com/images/I/81zE42gT3xL._AC_UF1000,1000_QL80_.jpg",
+      "info": "Brave New World is a dystopian novel by English author Aldous Huxley, written in 1931 and published in 1932.",
+      "id": 4
+    }
+  ]
+}

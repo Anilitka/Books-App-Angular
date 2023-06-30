@@ -1,0 +1,42 @@
+.navbar-collapse{
+    justify-content: end;
+}
+.navbar h2{
+    font-weight: bold;
+}
+.inputcontainer input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(148, 148, 199);
+    border-radius: 5px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    outline: none;
+}
+.inputcontainer input:focus{
+    border: 2px solid rgba(104, 104, 230, 0.556);
+}
+.buttonsgroup{
+    display: flex;
+    flex-direction: column;
+    
+}
+.buttonsgroup a{
+    text-decoration: none;
+    border: 1px solid rgba(104, 104, 230, 0.556);
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.delbtn{
+    border: 1px solid rgb(195, 35, 35);
+    background-color: transparent;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgb(195, 35, 35);
+    font-size: 14px;
+    font-weight: bold;
+}

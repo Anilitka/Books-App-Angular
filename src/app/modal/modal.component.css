@@ -1,0 +1,35 @@
+.title h1{
+margin-left: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.form-control{
+width: fit-content;
+}
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+input.ng-invalid.ng-touched{
+    border: 1px solid rgb(205, 7, 7);
+}
+.alert{
+    margin: 0;
+    padding: 0;
+    color: rgb(205, 7, 7);
+    font-weight: bold;
+}

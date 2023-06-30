@@ -1,0 +1,32 @@
+
+<div class="maincontent">
+<div class="title">
+    <h1>Add Book</h1>
+</div>
+<form [formGroup]="bookForm" (ngSubmit)="onFormSubmit()">
+<div class="content">
+    <div class="row">
+        <input class="form-control" ng-model="myInput"  required type="text" placeholder="Title" aria-label="default input example" formControlName = "title">
+        <div *ngIf="bookForm.controls['title'].invalid && (bookForm.controls['title'].dirty || bookForm.controls['title'].touched)" class="alert">
+           Please enter the title
+        </div>
+        <input class="form-control" ng-model="myInput" required type="text" placeholder="Author" aria-label="default input example" formControlName="author">
+                <div *ngIf="bookForm.controls['author'].invalid && (bookForm.controls['author'].dirty || bookForm.controls['author'].touched)" class="alert">
+            Please enter the author
+        </div>
+        <input class="form-control" ng-model="myInput" type="text" placeholder="Year" aria-label="default input example"formControlName="year">
+
+        <div *ngIf="bookForm.controls['year'].invalid && (bookForm.controls['year'].dirty || bookForm.controls['year'].touched)" class="alert">
+            Please enter the year
+        </div>
+
+
+    </div>
+</div>
+<div class="actions">
+    <button class="btn btn-success" type="submit" >Save Changes</button>
+</div>    
+</form>
+</div>
+
+
